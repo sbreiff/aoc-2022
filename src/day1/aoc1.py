@@ -1,4 +1,4 @@
-# aoc 2022
+# Advent of Code 2022 - Day 1
 
 from sys import argv
 
@@ -25,6 +25,7 @@ def print_output(infile):
     print('\n')
     print('Part 2:')
     print(get_cals_from_top_three(elves))
-    
-print_output(input_file)
+
+if __name__ == '__main__':   
+    print_output(input_file)
 
